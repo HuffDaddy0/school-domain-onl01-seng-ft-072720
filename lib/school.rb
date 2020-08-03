@@ -22,6 +22,6 @@ def sort
     students.sort {|one , two|
     one <=> two
     hash.[]}}
-    
+
 end
 end
