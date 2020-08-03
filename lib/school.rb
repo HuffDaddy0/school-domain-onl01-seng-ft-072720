@@ -19,9 +19,9 @@ end
 
 def sort
   @roster.map {|grade, students|
-    students.sort {|one , two|
+    students.sort do|one , two|
     one <=> two
-    hash.[]}}
+  end}
 
 end
 end
