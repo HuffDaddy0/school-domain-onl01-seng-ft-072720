@@ -20,7 +20,8 @@ end
 def sort
   @roster.map {|grade, students|
     students.sort {|one , two|
-    one <=> two}}
-@roster.flatten
+    one <=> two
+    hash.[]}}
+    
 end
 end
