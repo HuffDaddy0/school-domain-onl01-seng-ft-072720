@@ -21,8 +21,8 @@ def sort
   @roster.map do|grade, students|
     students.sort do|one , two|
     one <=> two
+    @roster.uniq.flatten
   end
-  @roster.uniq.flatten
 end
 end
 
