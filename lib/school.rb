@@ -21,7 +21,8 @@ end
 def sort
   @roster = {}
   @roster.map do|grade, students|
-    @roster << grade => students.sort
+    students.sort! do |one, two|
+      one <=> two
     #  binding.pry
 
 end
