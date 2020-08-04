@@ -19,10 +19,8 @@ def grade(grade)
 end
 
 def sort
-  @roster.each do|grade, students|
-  if if students != students.sort
-    students = students.sort do|one , two|
-      one <=> two
+  @roster.map do|grade, students|
+   students.sort
     #  binding.pry
   end
     end
