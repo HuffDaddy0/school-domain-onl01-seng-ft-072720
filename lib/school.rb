@@ -1,3 +1,4 @@
+require 'pry'
 # code here!
 class School
   attr_accessor :name, :roster
@@ -21,6 +22,7 @@ def sort
   @roster.map do|grade, students|
     students.sort do|one , two|
       one <=> two
+      binding.pry
     end
   @roster[0]
 end
