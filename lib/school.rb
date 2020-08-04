@@ -20,7 +20,7 @@ end
 
 def sort
   @roster.map do|grade, students|
-   grade: students.sort
+    students.sort
     #  binding.pry
 
 end
