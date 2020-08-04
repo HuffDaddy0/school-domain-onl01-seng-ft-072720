@@ -22,7 +22,6 @@ def sort
     students.sort do|one , two|
       one <=> two
     end
-  end
   @roster
 end
 end
