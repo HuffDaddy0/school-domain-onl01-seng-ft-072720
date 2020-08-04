@@ -22,8 +22,9 @@ def sort
     students.sort do|one , two|
     if one < two
       one <=> two
+    end
   end
-  @roster.values.uniq
+  @roster
 end
 end
 
