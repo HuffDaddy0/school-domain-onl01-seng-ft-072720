@@ -20,7 +20,8 @@ end
 def sort
   @roster.map do|grade, students|
     students.sort do|one , two|
-    one <=> two
+    if one <=> two
+      one <=> two
   end
   @roster.values.uniq
 end
