@@ -23,8 +23,9 @@ def sort
     students.sort do|one , two|
       one <=> two
       binding.pry
+@roster
     end
-  @roster[0]
+
 end
 end
 
