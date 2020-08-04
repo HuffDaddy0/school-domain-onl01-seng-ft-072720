@@ -18,7 +18,7 @@ def grade(grade)
 end
 
 def sort
-  @sorted_roster = @roster.map {|grade, students|
+  @roster.map {|grade, students|
     students.sort do|one , two|
     one <=> two
   end}
