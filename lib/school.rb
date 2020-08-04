@@ -22,7 +22,7 @@ def sort
     students.sort do|one , two|
     one <=> two
   end
-  @roster.2.times(flatten).to_h
+  @roster
 end
 end
 
