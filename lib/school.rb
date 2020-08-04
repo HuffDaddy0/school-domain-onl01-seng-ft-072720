@@ -23,7 +23,6 @@ def sort
     one <=> two
   end
 end
-@sorted_roster.to_h
 end
 
 
