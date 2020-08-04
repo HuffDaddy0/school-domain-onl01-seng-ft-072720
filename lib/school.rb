@@ -24,7 +24,7 @@ def sort
     students.sort! do |one, two|
       one <=> two
     #  binding.pry
-
+end
 end
 @roster
 end
