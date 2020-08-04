@@ -22,9 +22,11 @@ def sort
     students.sort do|one , two|
     one <=> two
   end
-  @roster.flatten
+  @roster.flatten.flatten.to_h
 end
 end
 
 
 end
+
+
