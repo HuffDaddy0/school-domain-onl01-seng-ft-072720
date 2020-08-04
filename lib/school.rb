@@ -22,8 +22,6 @@ def sort
   @roster.map do|grade, students|
    students.sort
     #  binding.pry
-  end
-    end
 
 end
 end
