@@ -20,7 +20,7 @@ end
 
 def sort
   @roster.each do|grade, students|
-  if 
+  if
     students = students.sort do|one , two|
       one <=> two
     #  binding.pry
