@@ -24,6 +24,7 @@ def sort
     #  binding.pry
 
 end
+@roster
 end
 
 
